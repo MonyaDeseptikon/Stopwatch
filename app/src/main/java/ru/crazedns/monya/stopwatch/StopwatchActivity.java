@@ -43,6 +43,7 @@ public class StopwatchActivity extends AppCompatActivity {
             return insets;
         });
     }
+
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
         super.onSaveInstanceState(savedInstanceState);
@@ -62,18 +63,18 @@ public class StopwatchActivity extends AppCompatActivity {
 //    wasRunning = running;
 //    running = false;
 //}
-////    @Override
-////    protected void onStart() {
-////        super.onStart();
-////        if(wasRunning) running = true;
-////    }
+
+    /// /    @Override
+    /// /    protected void onStart() {
+    /// /        super.onStart();
+    /// /        if(wasRunning) running = true;
+    /// /    }
 //@Override
 //protected void onResume() {
 //    super.onResume();
 //    if(wasRunning) running = true;
 //}
     public void onClickStart(View view) {
-
         running = true;
     }
 
